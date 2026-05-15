@@ -65,7 +65,7 @@ const translations = {
 
 // --- Mapeamento de máscaras de telefone Países ---
 const maskMap = {
-    'AR': { mask: '+54 000 000-0000', placeholder: '+54 XXX XXX-XXXX' },
+    'AR': { mask: '+54 000 000-0000', placeholder: '+54 9 XXX XXX-XXXX' },
     'BO': { mask: '+591 0 000-0000', placeholder: '+591 X XXX-XXXX' },
     'BR': { mask: '+55 (00) 00000-0000', placeholder: '+55 (DD) 9____-____' },
     'CL': { mask: '+56 0 0000 0000', placeholder: '+56 X XXXX XXXX' },
@@ -89,7 +89,7 @@ const maskMap = {
 
 
 const lengthMap = {
-    'AR': 10, 'BO': 8, 'BR': 11, 'CL': 9, 'CO': 10, 'EC': 9, 'PY': 9,
+    'AR': 11, 'BO': 8, 'BR': 11, 'CL': 9, 'CO': 10, 'EC': 9, 'PY': 9,
     'PE': 9, 'UY': 8, 'VE': 10, 'CR': 8, 'CU': 8, 'DO': 10, 'SV': 8,
     'GT': 8, 'HN': 8, 'MX': 10, 'NI': 8, 'PA': 8, 'DEFAULT': 7
 };
